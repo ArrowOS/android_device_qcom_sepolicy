@@ -130,3 +130,9 @@ vendor.display.qdcm_socket_service u:object_r:vendor_qdcmss_prop:s0
 
 #vendor-adsprpc
 vendor.fastrpc.                  u:object_r:vendor_adsprpc_prop:s0
+
+#aux camera
+vendor.camera.aux.packageblacklist         u:object_r:exported_default_prop:s0
+vendor.camera.aux.packagelist              u:object_r:exported_default_prop:s0
+vendor.camera.hal1.packagelist             u:object_r:exported_default_prop:s0
+persist.vendor.camera.privapp.list         u:object_r:exported_default_prop:s0
