@@ -1,21 +1,21 @@
 # Board specific SELinux policy variable definitions
 SEPOLICY_PATH:= device/qcom/sepolicy
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR := \
-    $(BOARD_PLAT_PUBLIC_SEPOLICY_DIR) \
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS := \
+    $(SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS) \
     $(SEPOLICY_PATH)/generic/public \
     $(SEPOLICY_PATH)/generic/public/attribute
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR := \
-    $(BOARD_PLAT_PRIVATE_SEPOLICY_DIR) \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS := \
+    $(SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS) \
     $(SEPOLICY_PATH)/generic/private
 
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR := \
-    $(BOARD_PLAT_PUBLIC_SEPOLICY_DIR) \
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS := \
+    $(SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS) \
     $(SEPOLICY_PATH)/qva/public \
     $(SEPOLICY_PATH)/qva/public/attribute
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR := \
-    $(BOARD_PLAT_PRIVATE_SEPOLICY_DIR) \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS := \
+    $(SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS) \
     $(SEPOLICY_PATH)/qva/private
 
 #once all the services are moved to Product /ODM above lines will be removed.
@@ -23,7 +23,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR := \
 PRODUCT_PUBLIC_SEPOLICY_DIRS := \
     $(PRODUCT_PUBLIC_SEPOLICY_DIRS) \
     $(SEPOLICY_PATH)/generic/product/public \
-    $(SEPOLICY_PATH)/qva/product/public 
+    $(SEPOLICY_PATH)/qva/product/public
 
 PRODUCT_PRIVATE_SEPOLICY_DIRS := \
     $(PRODUCT_PRIVATE_SEPOLICY_DIRS) \
