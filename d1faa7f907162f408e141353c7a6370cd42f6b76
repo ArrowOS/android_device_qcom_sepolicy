@@ -51,6 +51,23 @@
       "message": "Hold on gerrit now. Will be reviewed after move on qssi_13 tag.",
       "revId": "d1faa7f907162f408e141353c7a6370cd42f6b76",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b1043e6_681b398a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2022-08-26T13:48:39Z",
+      "side": 1,
+      "message": "https://git.codelinaro.org/clo/la/device/qcom/sepolicy/-/commit/e640ad789006f580689fcf19a880dad1c1ed0acb",
+      "revId": "d1faa7f907162f408e141353c7a6370cd42f6b76",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
