@@ -68,6 +68,24 @@
       "message": "https://git.codelinaro.org/clo/la/device/qcom/sepolicy/-/commit/e640ad789006f580689fcf19a880dad1c1ed0acb",
       "revId": "d1faa7f907162f408e141353c7a6370cd42f6b76",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8596a75b_a970931f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 410
+      },
+      "writtenOn": "2022-08-26T14:06:40Z",
+      "side": 1,
+      "message": "I see, thanks.\nI\u0027ll wait for the tag then",
+      "parentUuid": "3b1043e6_681b398a",
+      "revId": "d1faa7f907162f408e141353c7a6370cd42f6b76",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
