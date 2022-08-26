@@ -34,6 +34,23 @@
       "parentUuid": "7f1c9508_4e6377ed",
       "revId": "d1faa7f907162f408e141353c7a6370cd42f6b76",
       "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76f33dc6_b05d635a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 71
+      },
+      "writtenOn": "2022-08-26T13:46:27Z",
+      "side": 1,
+      "message": "Hold on gerrit now. Will be reviewed after move on qssi_13 tag.",
+      "revId": "d1faa7f907162f408e141353c7a6370cd42f6b76",
+      "serverId": "66da7299-18b4-411a-8fa2-12a880778196"
     }
   ]
 }
